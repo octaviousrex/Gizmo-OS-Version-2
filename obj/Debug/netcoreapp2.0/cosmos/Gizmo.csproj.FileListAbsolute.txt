@@ -1,0 +1,9 @@
+C:\Users\you\source\repos\Gizmo\bin\Debug\netcoreapp2.0\cosmos\Gizmo.deps.json
+C:\Users\you\source\repos\Gizmo\bin\Debug\netcoreapp2.0\cosmos\Gizmo.dll
+C:\Users\you\source\repos\Gizmo\bin\Debug\netcoreapp2.0\cosmos\Gizmo.pdb
+C:\Users\you\source\repos\Gizmo\obj\Debug\netcoreapp2.0\cosmos\Gizmo.csprojAssemblyReference.cache
+C:\Users\you\source\repos\Gizmo\obj\Debug\netcoreapp2.0\cosmos\Gizmo.AssemblyInfoInputs.cache
+C:\Users\you\source\repos\Gizmo\obj\Debug\netcoreapp2.0\cosmos\Gizmo.AssemblyInfo.cs
+C:\Users\you\source\repos\Gizmo\obj\Debug\netcoreapp2.0\cosmos\Gizmo.csproj.CoreCompileInputs.cache
+C:\Users\you\source\repos\Gizmo\obj\Debug\netcoreapp2.0\cosmos\Gizmo.dll
+C:\Users\you\source\repos\Gizmo\obj\Debug\netcoreapp2.0\cosmos\Gizmo.pdb
