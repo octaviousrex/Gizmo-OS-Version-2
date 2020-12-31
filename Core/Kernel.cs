@@ -151,12 +151,30 @@ namespace Gizmo.Core
 
             if (input.StartsWith("REBOOT"))
             {
-                Sys.Power.Reboot();
+                Console.WriteLine("Would you like to Reboot Gizmo OS? Yes/No");
+                string ans = Console.ReadLine();
+                if (ans.ToLower() == "y" || ans.ToLower() == "yes" || ans.ToLower() == "Yes")
+                {
+                    Sys.Power.Reboot();
+                }
+                else
+                {
+                    Console.Clear();
+                }
             }
 
             if (input.StartsWith("SHTDWN"))
             {
-                Sys.Power.Shutdown();
+                Console.WriteLine("Would you like to Shutdown Gizmo OS? Yes/No");
+                string ans = Console.ReadLine();
+                if (ans.ToLower() == "y" || ans.ToLower() == "yes" || ans.ToLower() == "Yes")
+                {
+                    Sys.Power.Shutdown();
+                }
+                else
+                {
+                    Console.Clear();
+                }
             }
 
             if (input.StartsWith("VER"))
@@ -173,6 +191,12 @@ namespace Gizmo.Core
             {
                 Util.MIV.StartMIV();
             }
+
+            if (input.StartsWith("BEEP"))
+            {
+                Util.BeepDemo.startBeepDemo();
+            }
+
         }
     }
 }
